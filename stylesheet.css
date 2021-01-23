@@ -1,0 +1,637 @@
+/*section 1 header*/
+
+.header {
+    position: absolute;
+    width: 376px;
+    height: 48px;
+    left: 0px;
+    top: 0px;
+    background: #E8467D;
+}
+
+.header p {
+    position: relative;
+    width: 375px;
+    height: 48px;
+    left: 15px;
+    top: 0px;
+    
+    font-family: 'Red Hat Text', sans-serif;
+    font-style: normal;
+    font-size: 10px;
+    display: flex;
+    text-align: center;
+    color: #FAF7F7;
+    
+}
+
+/*navigation*/
+
+.banner img {
+    position: absolute;
+    width: 338px;
+    height: 339px;
+    left: 18px;
+    top: 109px;
+    
+    background: url(pexels-ricardo-esquivel-1964471.jpg);
+    border-radius: 15px;
+}
+
+.banner p {
+    position: absolute;
+width: 257px;
+height: 106px;
+left: 50px;
+top: 201px;
+
+font-family: 'Red Hat Display', sans-serif;
+font-style: medium;
+font-size: 18px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.banner a {
+    position: absolute;
+    width: 82px;
+    height: 19px;
+    left: 84px;
+    top: 325px;
+
+    font-family:'Red Hat Text', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}   
+
+h3 {
+    position: absolute;
+    width: 338px;
+    height: 29px;
+    left: 18px;
+    top: 504px;
+
+    font-family:'Red Hat Display', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+/*Section 2 : sélections*/
+
+.selections h4 {
+    position: absolute;
+width: 64px;
+height: 51px;
+
+font-family: 'Red Hat Text', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+}
+
+.Femme img {
+    position: absolute;
+    width: 333px;
+    height: 189px;
+    left: 0px;
+    top: 552px;
+
+background: url(pexels-godisable-jacob-1191531.jpg);
+border-radius: 15px;
+}
+
+.Femme h4 {
+    left: 10px;
+    top: 544px;
+}
+
+.Femme a {
+    position: absolute;
+    width: 108px;
+    height: 30px;
+    left: 225px;
+    top: 704px;
+    
+    font-family: 'Red Hat Text', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.Homme img {
+    position: absolute;
+    width: 330px;
+    height: 189px;
+    left: 45px;
+    top: 760px;
+
+    background: url(pexels-mister-mister-2442893.jpg);
+    border-radius: 15px;
+}
+
+.Homme h4 {
+    left: 300px;
+    top: 752px;
+}
+
+.Homme a {
+    position: absolute;
+width: 125px;
+height: 30px;
+left: 43px;
+top: 911px;
+
+font-family: 'Red Hat Text', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.Enfant img {
+    position: absolute;
+width: 334px;
+height: 189px;
+left: 0px;
+top: 970px;
+
+background: url(pexels-julia-kuzenkov-2852044.jpg);
+border-radius: 15px;
+}
+
+.Enfant h4 {
+    left: 10px;
+    top: 962px;
+}
+
+.Enfant a {
+    position: absolute;
+    width: 125px;
+    height: 30px;
+    left: 219px;
+    top: 1122px;
+    
+    font-family: 'Red Hat Text', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;
+    
+}
+
+/* Section 3: Trouvez le cadeau idéal*/
+
+.cadeau h2 {
+    position: absolute;
+    width: 338px;
+    height: 29px;
+    left: 23px;
+    top: 1215px;
+    
+    font-family:'Red Hat Display',sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #000000; 
+}
+
+.cadeau {
+    position: absolute;
+width: 376px;
+height: 392px;
+left: 0px;
+top: 1195px;
+
+background: #F2F2F2;
+}
+
+.cadeau a femme {
+    position: absolute;
+    width: 152px;
+    height: 35px;
+    left: 112px;
+    top: 1259px;
+    
+    font-family: 'Red Hat Text', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #000000;
+}
+
+/* Section 4 : Le blog*/
+
+.blog h3 {
+    position: absolute;
+width: 338px;
+height: 29px;
+left: 19px;
+top: 1612px;
+
+font-family:'Red Hat Display', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 19px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #000000;
+}
+
+.blog h5 {
+    position: absolute;
+    width: 85px;
+    height: 18px;
+   
+    font-family:'Red Hat Text', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #000000
+}
+
+.article1 h5 {
+    left: 145px;
+    top: 1758px;
+}
+
+.article2 h5 {
+    left: 145px;
+    top: 2096px;
+}
+
+.article3 h5 {
+    left: 119px;
+    top: 2459px;
+}
+
+.blog p {
+    position: absolute;
+width: 177px;
+height: 72px;
+
+font-family: 'Red Hat Display', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 17px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+}
+
+.article1 p {
+    left: 101px;
+top: 1865px;
+}
+
+.article2 p {
+    left: 87px;
+    top: 2212px;
+}
+
+.article3 p {
+    left: 82px;
+    top: 2590px;
+}
+
+.article1 img {
+    position: absolute;
+width: 213px;
+height: 221px;
+left: 82px;
+top: 1662px;
+
+background: url(joa3.jpg);
+border-radius: 15px;
+}
+
+.article2 img{
+    position: absolute;
+width: 213px;
+height: 221px;
+left: 83px;
+top: 2000px;
+
+background: url(pexels-evg-culture-1360121.jpg);
+border-radius: 15px;
+}
+
+.article3 img {
+    position: absolute;
+width: 213px;
+height: 221px;
+left: 83px;
+top: 2363px;
+
+background: url(joa.jpg);
+border-radius: 15px;
+}
+
+/*changer la couleur du lire en blanc FFFFFF*/
+
+.blog a {
+    position: absolute;
+    width: 171px;
+    height: 31px;
+    left: 104px;
+    top: 2723px;
+    
+    font-family: Red Hat Text;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: red;
+
+    position: absolute;
+}
+
+.article1 a {
+    width: 50px;
+    height: 19px;
+    left: 163px;
+    top: 1922px;
+}
+
+.article2 a {
+    width: 50px;
+    height: 19px;
+    left: 164px;
+    top: 2281px;
+}
+
+.article3 a {
+    width: 50px;
+    height: 19px;
+    left: 164px;
+    top: 2647px;
+}
+
+/* Section 5 : Fidélisation */
+
+.fidelisation {
+    background: #E5E5E5;
+    position: absolute;
+    width: 379px;
+    height: 279px;
+    left: 0px;
+    top: 2817px; 
+}
+/* voir ce qui ne va pas*/
+
+.article4 p {
+position: absolute;
+width: 249px;
+height: 64px;
+left: 64px;
+top: 2825px;
+
+font-family: 'Red Hat Display', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 21px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color:red;
+}
+.article5 p {
+    position: absolute;
+    width: 138px;
+    height: 29px;
+    left: 118px;
+    top: 2979px;
+    
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: red;
+}
+.article5 img {
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 114px;
+    top: 3020px;
+    display: flex;
+    align-items: center;
+    align-content: space-between;
+} /*regarder comment avoir les 3 icones correctement -> regarder demoflexbox du prof*/
+
+
+/*Section 6 : Réassurance*/
+
+.article6 img {
+    position: relative;
+    width: 42px;
+    height: 43px;
+    left: 76px;
+    top: 3133px;
+    display: flex;
+}
+.article6 p {
+    position: absolute;
+    width: 96px;
+    height: 21px;
+    left: 50px;
+    top: 3186px;
+
+font-family: 'Red Hat Text', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 13px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+}
+
+.article7 img {
+    position: absolute;
+width: 52px;
+height: 43px;
+left: 246px;
+top: 3133px;
+}
+
+.article7 p {
+    position: absolute;
+width: 95px;
+height: 21px;
+left: 225px;
+top: 3187px;
+
+font-family: 'Red Hat Text', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 13px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+}
+
+.article8 img {
+    position: absolute;
+width: 54px;
+height: 55px;
+left: 73px;
+top: 3232px;
+}
+.article8 p {
+    position: absolute;
+width: 100px;
+height: 15px;
+left: 50px;
+top: 3287px;
+
+font-family: Red Hat Text;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 13px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+}
+
+.article9 img {
+    position: absolute;
+width: 50px;
+height: 49px;
+left: 247px;
+top: 3237px;
+}
+
+.article9 p {
+    position: absolute;
+width: 119px;
+height: 19px;
+left: 212px;
+top: 3288px;
+
+font-family: 'Red Hat Text', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 13px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+}
+
+/* CSS pour les icones de méthode de paiement
+position: absolute;
+width: 66px;
+height: 14px;
+left: 240px;
+top: 3302px;*/
+
+/* Section 7 : Footer*/
+
+.footer {
+    position: absolute;
+width: 379px;
+height: 284px;
+left: -3px;
+top: 3355px;
+
+background: #C4C4C4;
+}
+
+.article10 h5 {
+    position: absolute;
+width: 204px;
+height: 29px;
+left: 72px;
+top: 3372px;
+
+font-family: 'Red Hat Display', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 21px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+
+}
