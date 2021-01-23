@@ -86,23 +86,28 @@ ul {
 }
 
 .banner a {
-    position: absolute;
     width: 164px;
     height: 35px;
-    left: 25px;
-    top: 65%;
     font-family: 'Red Hat Text', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    display: flex;
-    justify-content: center;
     background: #E8467D;
     line-height: 19px;
     color: #FFFFFF;
-    align-items: center;
     border-radius: 15px;
 }
+
+button{
+    border-radius:15px;
+    background-color:#E8467D;
+    color:#fff;
+    height:35px;
+    width:164px;
+    margin-top:5px;
+    border:none;
+}
+
 
 /*Section 2 : sélections*/
 
@@ -503,7 +508,6 @@ h3 {
 /*Section 6 : Réassurance*/
 
 .article6 img {
-    position: relative;
     width: 42px;
     height: 43px;
     left: 76px;
@@ -616,18 +620,15 @@ top: 3302px;*/
 .footer {
     position: absolute;
     width: 379px;
-    height: 600px;
-    left: -3px;
+    left: 0px;
     top: 3355px;
     background: #C4C4C4;
 }
 
 .serviceclient h5 {
-    position: absolute;
     width: 204px;
     height: 29px;
     left: 72px;
-    top: 3355px;
     font-family: 'Red Hat Display', sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -640,7 +641,6 @@ top: 3302px;*/
 }
 
 .serviceclient p {
-    position: absolute;
     width: 333px;
     height: 62px;
     left: 21px;
@@ -654,11 +654,9 @@ top: 3302px;*/
 }
 
 .footer p {
-    position: absolute;
     width: 174px;
     height: 15px;
     left: 104px;
-    top: 3647px;
     font-family: 'Red Hat Text', sans-serif;
     font-style: normal;
     font-weight: bold;
